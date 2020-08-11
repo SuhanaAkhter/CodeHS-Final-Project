@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Bootstrap JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Books</title>
+    </head>
+    <body>
+        <!-- Navbar -->
+        <div class="container-fluid">
+            <nav class="navbar navbar-fixed-top navbar-inverse text">
+                <ul class="nav navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="index.html" class="navbar-brand"><span class="glyphicon glyphicon-home"></span> The Resourceful Review Site</a>
+                </ul>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <!-- Movies, Musicals & TV Shows Dropdown -->
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="movies.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Movies, Musicals & TV Shows <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="movies.html">All Genres</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="sci-fi-movies.html">Sci-fi Movies & TV Shows</a></li>
+                                <li><a href="disney-channel-movies.html">Disney Channel Movies & TV Shows</a></li>
+                                <li><a href="#">Fantasy Movies & TV Shows</a></li>
+                                <li><a href="#">Musicals</a></li>
+                            </ul>
+                        </li>
+                        <!-- Books Dropdown -->
+                        <li class="dropdown">
+                            <a href="books.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Books <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="books.html">All Genres</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="sci-fi-books.html">Sci-fi Books</a></li>
+                                <li><a href="fantasy-books.html">Fantasy Books</a></li>
+                                <li><a href="#">Action Fiction Books</a></li>
+                                <li><a href="#">Adventure Books</a></li>
+                            </ul>
+                        </li>
+                        <!-- Products Dropdown -->
+                        <li class="dropdown">
+                            <a href="products.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="products.html">All Types</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="furniture.html">Furniture</a></li>
+                                <li><a href="office-supplies.html">Office Supplies</a></li>
+                                <li><a href="#">Electronics</a></li>
+                                <li><a href="#">Toys</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            
+            <!-- Main Content -->
+            <!-- Page Title -->
+            <div class="body">
+                <div class="jumbotron center text">
+                    <h1>Books</h1>
+                </div>
+            </div>
+            <div class="row center">
+                <!-- Sci-fi Books Thumbnail -->
+                <div class="col-sm-6 col-md-3">
+                    <a href="sci-fi-books.html">
+                        <div class="thumbnail">
+                            <img class="img" src="https://static1.squarespace.com/static/5c8d5ac44d546e5b7e4e903b/5c8d661ccab3393b76bf1fec/5c9ab1cc971a1828391d23b1/1556131023622/The+Hunger+Games.jpg?format=1000w" alt="The Hunger Games">
+                            <div class="caption">
+                                <h3>Sci-fi Books</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <!-- Fantasy Books Thumbnail -->
+                <div class="col-sm-6 col-md-3">
+                    <a href="fantasy-books.html">
+                        <div class="thumbnail">
+                            <img class="img" src="https://images-na.ssl-images-amazon.com/images/I/81yZUKlrzEL.jpg" alt="Keeper of the Lost Cities">
+                            <div class="caption">
+                                <h3>Fantasy Books</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <!-- Action Books Thumbnail -->
+                <div class="col-sm-6 col-md-3">
+                    <a href="#">
+                        <div class="thumbnail">
+                            <img class="img" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1375596592l/6186357.jpg" alt="The Maze Runner">
+                            <div class="caption">
+                                <h3>Action Books</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <!-- Adventure Books Thumbnail -->
+                <div class="col-sm-6 col-md-3">
+                    <a href="#">
+                        <div class="thumbnail">
+                            <img class="img" src="https://images-na.ssl-images-amazon.com/images/I/91RQ5d-eIqL.jpg" alt="Percy Jackson">
+                            <div class="caption">
+                                <h3>Adventure Books</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+

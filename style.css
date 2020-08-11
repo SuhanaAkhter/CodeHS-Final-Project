@@ -1,0 +1,136 @@
+/* General Styles */
+.text {
+    font-family: 'Roboto', sans-serif;
+}
+
+.center {
+    text-align: center;
+}
+
+.body {
+    padding-top:70px;
+}
+
+.img{
+  background: url("path");
+  background-size:cover;
+  width: 400px;
+}
+
+@media only screen and (min-width: 675px) {
+    .review-img {
+        padding-top: 50px;
+        background: url("path");
+        background-size:cover;
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 675px) {
+    .review-img {
+        padding-top: 50px;
+        background: url("path");
+        background-size:cover;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 675px) {
+    .desk-img {
+        padding-top: 25%;
+        background: url("path");
+        background-size:cover;
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 675px) {
+    .desk-img {
+        padding-top: 25%;
+        background: url("path");
+        background-size:cover;
+        width: 100%;
+    }
+}
+
+.thumbnail{
+   width:400px;
+   height:700px;
+}
+
+.office-thumbnail {
+    width:400px;
+    height:800px;
+}
+
+.furniture-thumbnail {
+    width:400px;
+    height:470px;
+}
+
+
+/* Homepage Styles */
+.homepage {
+    background-image: url("https://cdn.wallpapersafari.com/17/3/FuRI4H.jpg");
+}
+
+/* For Phones */
+@media only screen and (max-width: 450px) {
+    .my-panel {
+        position:fixed;
+        top: 50%;
+        left: 50%;
+        height:270px;
+        width:300px;
+        margin-top: -135px; /*set to a negative number 1/2 of your height*/
+        margin-left: -150px; /*set to a negative number 1/2 of your width*/
+        border: 1px solid #ccc;
+        background-color: #f3f3f3;
+    }
+}
+
+/* For Small Tablets */
+@media only screen and (min-width: 450px) {
+    .my-panel {
+        position:fixed;
+        top: 50%;
+        left: 50%;
+        height:250px;
+        width:350px;
+        margin-top: -125px; /*set to a negative number 1/2 of your height*/
+        margin-left: -175px; /*set to a negative number 1/2 of your width*/
+        border: 1px solid #ccc;
+        background-color: #f3f3f3;
+    }
+}
+
+/* For Tablets */
+@media only screen and (min-width: 675px) {
+    .my-panel {
+        position:fixed;
+        top: 50%;
+        left: 50%;
+        height:150px;
+        width:650px;
+        margin-top: -75px; /*set to a negative number 1/2 of your height*/
+        margin-left: -325px; /*set to a negative number 1/2 of your width*/
+        border: 1px solid #ccc;
+        background-color: #f3f3f3;
+    }
+}
+
+/* For Computers */
+@media only screen and (min-width: 768px) {
+    .my-panel {
+        position:fixed;
+        top: 50%;
+        left: 50%;
+        height:160px;
+        width:700px;
+        margin-top: -80px; /*set to a negative number 1/2 of your height*/
+        margin-left: -350px; /*set to a negative number 1/2 of your width*/
+        border: 1px solid #ccc;
+        background-color: #f3f3f3;
+    }
+}
+
